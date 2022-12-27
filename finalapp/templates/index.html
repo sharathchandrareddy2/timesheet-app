@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+    <title>Timesheet Form</title>
+  </head>
+  <body>
+    <h1>Timesheet Form</h1>
+    <form method="post" action="{{ url_for('submit') }}">
+      {{ form.csrf_token }}
+      {{ form.name.label }} {{ form.name }}
+      {{ form.date.label }} {{ form.date }}
+      {{ form.start_time.label }} {{ form.start_time }}
+      {{ form.end_time.label }} {{ form.end_time }}
+      {{ form.submit }}
+    </form>
+  </body>
+</html>
+

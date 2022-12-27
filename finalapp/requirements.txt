@@ -1,0 +1,6 @@
+flask
+flask-wtf
+mysql-connector-python
+flask-login
+flask-security
+sqlalchemy

@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+}
+form {
+  width: 300px;
+  margin: 0 auto;
+}
+label, input {
+  display: block;
+  margin: 10px 0;
+}
+input {
+  width: 100%;
+  height: 30px;
+  padding: 0 10px;
+  font-size: 14px;
+}
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
